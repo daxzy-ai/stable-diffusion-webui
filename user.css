@@ -15,15 +15,15 @@
   --ctp-blue: #89b4fa;
   --ctp-text: #F3CDF4;
   --ctp-subtext1: #F1B2C3;
-  --ctp-subtext0: #a6adc8;
+  --ctp-subtext0: #F7BBF3;
   --ctp-overlay2: #9399b2;
   --ctp-overlay1: #7f849c;
   --ctp-overlay0: #6c7086;
   --ctp-surface2: #585b70;
   --ctp-surface1: #45475a;
   --ctp-surface0: #313244;
-  --ctp-base: #430632;
-  --ctp-mantle: #2B061E;
+  --ctp-base: #000000;
+  --ctp-mantle: #e083c5;
   --ctp-crust: #11111b;
   --shadow: #010409;
   --ctp-accent: var(--ctp-maroon);
