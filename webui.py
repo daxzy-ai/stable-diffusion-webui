@@ -132,17 +132,6 @@ def initialize():
     modules.sd_vae.refresh_vae_list()
     startup_timer.record("refresh VAE")
 
-app, local_url, share_url = demo.launch(
-            share=cmd_opts.share,
-            server_name="0.0.0.0" if cmd_opts.listen else None,
-            server_port=cmd_opts.port,
-            debug=cmd_opts.gradio_debug,
-            auth=[tuple(cred.split(':')) for cred in cmd_opts.gradio_auth.strip('"').split(',')] if cmd_opts.gradio_auth else None,
-            inbrowser=cmd_opts.autolaunch,
-            favicon_path="logo.png",
-            prevent_thread_lock=True
-        )
-
     modules.textual_inversion.textual_inversion.list_textual_inversion_templates()
     startup_timer.record("refresh textual inversion templates")
 
