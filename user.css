@@ -22,8 +22,8 @@
   --ctp-surface2: #585b70;
   --ctp-surface1: #45475a;
   --ctp-surface0: #313244;
-  --ctp-base: #000000;
-  --ctp-mantle: #e083c5;
+  --ctp-base: #e083c5;
+  --ctp-mantle: #000000;
   --ctp-crust: #11111b;
   --shadow: #010409;
   --ctp-accent: var(--ctp-maroon);
