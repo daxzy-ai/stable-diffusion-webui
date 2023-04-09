@@ -21,10 +21,10 @@
   --ctp-overlay0: #FBDDF8;
   --ctp-surface2: #F177AE;
   --ctp-surface1: #0AF70A;
-  --ctp-surface0: #FFFFFF;
+  --ctp-surface0: ##eba0ac;
   --ctp-base: #734975;
   --ctp-mantle: #200C1E;
-  --ctp-crust: #0AF70A;
+  --ctp-crust: #DEBBF7;
   --shadow: #010409;
   --ctp-accent: var(--ctp-maroon);
   color-scheme: dark;
